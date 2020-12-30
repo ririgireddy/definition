@@ -4,6 +4,8 @@ import sys
 
 try: color = sys.stdout.shell
 except AttributeError: raise RuntimeError("Use IDLE")
+#this is just smth that I researched online to add color to the final result
+
 
 while True:
     url="https://www.dictionary.com/browse/"
